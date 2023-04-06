@@ -1,13 +1,16 @@
 .main {
+  font-size: 1.3rem;
   font-family: var(--font-mono);
   display: flex;
   justify-content: space-between;
 }
 
-.logo {
-  font-size: 20px;
+.background {
+  height: 98vh;
+  padding: 1rem;
+  background-color: #dfe7fd;
 }
 
 .link * {
-  padding-left: 10px;
+  padding-left: 0.75rem;
 }

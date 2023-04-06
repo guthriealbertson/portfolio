@@ -1,24 +1,23 @@
 .main {
+  padding-top: 5rem;
   font-family: var(--font-calibri);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
-  top: 20%;
 }
 
 .lineone {
-  font-size: clamp(25px, 5vw, 50px);
+  font-size: 2rem;
   font-weight: 400;
   color: rgb(17, 11, 86);
 }
 
 .linetwo {
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: 4rem;
   font-weight: 600;
   color: rgb(29, 16, 172);
 }
 
 .linethree {
-  font-size: clamp(20px, 3vw, 35px);
+  font-size: 1.5rem;
 }
