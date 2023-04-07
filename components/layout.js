@@ -11,34 +11,20 @@ export default function Layout({ children }) {
   const [color, setColor] = useState(0);
 
   useEffect(() => {
-    const handleRouteChange = (url, { shallow }) => {
-      console.log(
-        `App is changing to ${url} ${
-          shallow ? "with" : "without"
-        } shallow routing`
-      );
-      switch (url) {
-        case "/":
-          setColor("#dfe7fd");
-          break;
-        case "/contact":
-          setColor("#FFF1E6");
-          break;
-        case "/resume":
-          setColor("#E2ECE9");
-          break;
-        default:
-          setColor("#dfe7fd");
-      }
-    };
-
-    router.events.on("routeChangeStart", handleRouteChange);
-
-    // If the component is unmounted, unsubscribe
-    // from the event with the `off` method:
-    return () => {
-      router.events.off("routeChangeStart", handleRouteChange);
-    };
+    console.log(router.pathname);
+    switch (router.pathname) {
+      case "/":
+        setColor("#dfe7fd");
+        break;
+      case "/contact":
+        setColor("#FFF1E6");
+        break;
+      case "/resume":
+        setColor("#E2ECE9");
+        break;
+      default:
+        setColor("#dfe7fd");
+    }
   }, [router]);
 
   return (
