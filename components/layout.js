@@ -9,7 +9,6 @@ import { useEffect } from "react";
 export default function Layout({ children }) {
   const router = useRouter();
   const [color, setColor] = useState(0);
-  const [count, setCount] = useState(0);
 
   useEffect(() => {
     const handleRouteChange = (url, { shallow }) => {
@@ -23,10 +22,10 @@ export default function Layout({ children }) {
           setColor("#dfe7fd");
           break;
         case "/contact":
-          setColor("#E2ECE9");
+          setColor("#FFF1E6");
           break;
-        case "/about":
-          setColor("#FDE2E4");
+        case "/resume":
+          setColor("#E2ECE9");
           break;
         default:
           setColor("#dfe7fd");
@@ -44,6 +43,9 @@ export default function Layout({ children }) {
 
   return (
     <div>
+      <div className={styles.topbar} />
+      <div className={styles.bottombar} />
+
       <div className={styles.background} style={{ backgroundColor: color }}>
         <Navbar />
         <main>{children}</main>

@@ -8,12 +8,8 @@ export default function Navbar() {
         G
       </Link>
       <div className={styles.link}>
-        <Link  href="/about">
-          About
-        </Link>
-        <Link  href="/contact">
-          Contact
-        </Link>
+        <Link href="/resume">Resume</Link>
+        <Link href="/contact">Hire Me!</Link>
       </div>
     </nav>
   );

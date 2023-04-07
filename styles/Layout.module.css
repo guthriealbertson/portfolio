@@ -6,11 +6,38 @@
 }
 
 .background {
-  height: 98vh;
+  min-height: 98vh;
   padding: 1rem;
   background-color: #dfe7fd;
 }
 
 .link * {
-  padding-left: 0.75rem;
+  padding-left: 1rem;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1rem;
+  width: 100%;
+  background-color: white;
+}
+
+.bottombar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 1rem;
+  width: 100%;
+  background-color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .topbar {
+    display: none;
+  }
+  .bottombar {
+    display: none;
+  }
 }

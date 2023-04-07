@@ -1,0 +1,25 @@
+.resume {
+  border-radius: 1rem;
+  line-height: 1.5;
+  margin: 1rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.resume > div {
+  padding-bottom: 2rem;
+}
+
+.indent {
+  padding-left: 1rem;
+}
+
+.indenttwo {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .resume > div {
+    padding-left: 0;
+  }
+}

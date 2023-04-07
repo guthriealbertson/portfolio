@@ -1,0 +1,46 @@
+.form {
+  padding: 1rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: thick solid black;
+  border-radius: 1rem;
+}
+
+.nameemail {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.name {
+  width: 58%;
+}
+
+.email {
+  width: 38%;
+}
+
+.form input {
+  font-family: var(--font-mono);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: thick solid black;
+}
+
+.message {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 8rem;
+  height: 20rem;
+  font-family: var(--font-mono);
+  padding: 0.5rem;
+
+  border-radius: 1rem;
+  border: thick solid black;
+}
+
+.subject {
+  margin-bottom: 0.5rem;
+}

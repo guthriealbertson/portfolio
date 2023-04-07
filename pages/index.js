@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.linetwo}>Guthrie Albertson.</div>
         <div className={styles.linethree}>
           I'm a software developer and senior at Temple University from
-          Philadelphia, PA
+          Philadelphia, PA.
         </div>
       </main>
     </div>
