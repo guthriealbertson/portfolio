@@ -40,7 +40,7 @@
 }
 
 .body {
-  overflow: hidden;
+  overflow-y: hidden;
   max-height: 0;
   animation: vert 1.5s steps(20, end) forwards;
   animation-delay: 2.6s;
@@ -69,5 +69,15 @@
   }
   to {
     border-color: black;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .indent {
+    padding-left: 0;
+  }
+  .resume {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

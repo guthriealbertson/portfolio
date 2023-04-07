@@ -6,6 +6,7 @@
 }
 
 .background {
+  overflow-x: scroll;
   margin: auto;
   max-width: 80rem;
   min-height: 100vh;
