@@ -6,9 +6,11 @@
 }
 
 .background {
-  min-height: 98vh;
+  margin: auto;
+  max-width: 80rem;
+  min-height: 100vh;
+  min-height: 100svh;
   padding: 1rem;
-  background-color: #dfe7fd;
 }
 
 .link * {

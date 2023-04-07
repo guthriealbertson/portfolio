@@ -1,4 +1,18 @@
+.page {
+  padding-top: 4rem;
+  max-width: 50rem;
+  margin: auto;
+  font-family: var(--font-calibri);
+}
+
+.page h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgb(29, 16, 172);
+}
+
 .form {
+  margin: auto;
   padding: 1rem;
   margin-top: 5rem;
   display: flex;
@@ -29,18 +43,18 @@
   border: thick solid black;
 }
 
+.subject {
+  margin-bottom: 0.5rem;
+}
+
 .message {
   max-width: 100%;
   min-width: 100%;
   min-height: 8rem;
-  height: 20rem;
+  height: 15rem;
   font-family: var(--font-mono);
   padding: 0.5rem;
 
   border-radius: 1rem;
   border: thick solid black;
-}
-
-.subject {
-  margin-bottom: 0.5rem;
 }
