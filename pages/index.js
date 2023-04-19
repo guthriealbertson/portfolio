@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.lineone}>Hi, my name is</div>
         <div className={styles.linetwo}>Guthrie Albertson.</div>
         <div className={styles.linethree}>
-          I'm a software developer and senior at Temple University from
+          I'm a software developer and senior at Temple University in
           Philadelphia, PA.
         </div>
       </main>
