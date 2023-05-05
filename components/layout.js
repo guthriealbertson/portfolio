@@ -33,7 +33,7 @@ export default function Layout({ children }) {
       <div className={styles.bottombar} />
 
       <div className={styles.background} style={{ backgroundColor: color }}>
-        <Navbar />
+        {/* <Navbar /> */}
         <main>{children}</main>
       </div>
     </div>
